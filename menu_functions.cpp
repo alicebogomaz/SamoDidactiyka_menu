@@ -3,9 +3,7 @@
 
 #include "menu_functions.hpp"
 
-const ABogomaz::MenuItem* ABogomaz::exit(const MenuItem* current) {
-    std::exit(0);
-}
+
 const ABogomaz::MenuItem* ABogomaz::show_menu(const MenuItem* current) {
     std::cout << "привет-привет! саморазвитие is the real punk rock! :)" << std::endl;
 
@@ -21,6 +19,10 @@ const ABogomaz::MenuItem* ABogomaz::show_menu(const MenuItem* current) {
     std::cout << std::endl;
 
     return current->children[user_input];
+}
+
+const ABogomaz::MenuItem* ABogomaz::exit(const MenuItem* current) {
+    std::exit(0);
 }
 
 const ABogomaz::MenuItem* ABogomaz::study_summ(const MenuItem* current) {
