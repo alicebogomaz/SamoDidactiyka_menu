@@ -7,7 +7,7 @@
 
 int main() {
     std::setlocale(LC_ALL, "");
-
+    
     const ABogomaz::MenuItem* current = &ABogomaz::MAIN;
 
     do  {
