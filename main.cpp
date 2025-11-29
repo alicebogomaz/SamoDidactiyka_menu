@@ -1,4 +1,3 @@
-#include <clocale>
 #include <iostream>
 
 #include "menu.hpp"
@@ -6,7 +5,6 @@
 #include "menu_items.hpp"
 
 int main() {
-    std::setlocale(LC_ALL, "");
     
     const ABogomaz::MenuItem* current = &ABogomaz::MAIN;
 
