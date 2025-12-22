@@ -12,3 +12,4 @@ namespace ABogomaz {
         const int children_count;
     };
 }
+
